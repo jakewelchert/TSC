@@ -1,0 +1,15 @@
+<script>
+//forward user to blog category page
+var anchors = document.body.getElementsByTagName("a");
+for(var i=0; i < anchors.length; i++) {
+    var anc = anchors[i];
+  	original_href = anc.getAttribute("href");
+    if (original_href.indexOf("/posts?category=") != -1) {
+      var cat = original_href.split("=");
+      cat = cat[1];
+      cat = cat.toLowerCase();
+      cat = cat.replace("+","-");
+      anc.setAttribute("href", "/blog-"+cat );
+    } 
+}
+  </script>
