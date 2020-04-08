@@ -8,6 +8,11 @@
   src: url('https://static1.squarespace.com/static/5e6803a2895d977760abca32/t/5e6934b3c104fd669e9804a0/1583953075968/Formular-Light.ttf') format('truetype');
 }  
 
+@font-face {
+  font-family: 'Formular';
+  src: url('https://static1.squarespace.com/static/5e6803a2895d977760abca32/t/5e8e54644955f72efb35e350/1586386020630/Formular.ttf') format('truetype');
+}  
+
 body {
   font-family: 'Formular-Light', sans-serif;
 }
@@ -15,6 +20,10 @@ body {
 h1, h2 {
   color: #2671b7 !important;
   font-family: 'Formular-Medium', sans-serif;
+}
+
+figcaption h2 {
+    font-family: 'Formular',sans-serif;
 }
 
 .homepage h2 .underline {
@@ -26,7 +35,11 @@ h1, h2 {
   padding-bottom: 8px;
 }
 
-.home h4 {
+.homepage .sqs-block-horizontalrule hr {
+    background-color: #e9eaea;
+}
+
+.homepage h4 {
    color:
 #2671b7 !important;
   font-family: 'Formular-Light';
@@ -35,10 +48,18 @@ h1, h2 {
   padding-bottom: 26px;
   background-image: url(https://static1.squarespace.com/static/5e6803a2895d977760abca32/t/5e6935648f00da72b721844c/1583953260315/we-re-here.png);
   background-position: bottom center;
-background-size: contain;
-background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
   display: inline-block;
   margin:0 auto;
+}
+
+.homepage section:nth-of-type(6) {
+	border-bottom: 1px solid #e9eaea;
+}
+
+.homepage .sqs-block-image .design-layout-card .intrinsic img {
+    max-width: 540px;
 }
 
 .sqs-block-button-element,
