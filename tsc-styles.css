@@ -54,6 +54,7 @@ figcaption h2 {
   margin:0 auto;
 }
 
+.homepage section:nth-of-type(9),
 .homepage section:nth-of-type(6) {
 	border-bottom: 1px solid #e9eaea;
 }
