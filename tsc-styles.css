@@ -17,19 +17,13 @@ h1, h2 {
   font-family: 'Formular-Medium', sans-serif;
 }
 
-.home h2 em {
-  text-decoration: underline;  
-  font-style: normal !important;
-}
-
-.homepage h2 > em:nth-of-type(2) {
+.homepage h2 .underline {
   text-decoration: none;
-   background-image: url(https://static1.squarespace.com/static/5e6803a2895d977760abca32/t/5e694358be1dba38f7b9ee23/1583956824854/yellow-underline.png);
+  background-image: url(https://static1.squarespace.com/static/5e6803a2895d977760abca32/t/5e694358be1dba38f7b9ee23/1583956824854/yellow-underline.png);
   background-position: bottom center;
-background-size: contain;
-background-repeat: no-repeat;
+  background-size: contain;
+  background-repeat: no-repeat;
   padding-bottom: 8px;
-  font-style: normal !important;
 }
 
 .home h4 {
