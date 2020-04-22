@@ -161,6 +161,7 @@ small,
     color: #919191 !important;
     font-family: Formular-Medium,sans-serif;
     font-size: 0.85rem;
+	letter-spacing: 0.05em;
 }
 
 .max-width-1000 {
@@ -279,7 +280,7 @@ p.sqsrte-large {
 }
 
 article .sqs-block-button-element {
-  font-size: 1.3333343412075rem
+  font-size: 1.3333343412075rem;
   padding-top: 1.2rem;
   padding-bottom: 1.2rem;
   padding-left: 55px;
@@ -1320,7 +1321,42 @@ footer .sqs-block-image .sqs-block-image-figure {
     padding-right: 0 !important;
     padding-left: 0 !important;
 }
-   
+
+.collection-5e6d4a189988a61549b6c04d h1 {
+    color: #3568a0 !important;
+}
+
+.collection-5e6d4a189988a61549b6c04d article .sqs-block-button-element {
+	margin-top: 25px;
+}
+	
+.collection-5e6d4a189988a61549b6c04d .header-announcement-bar-wrapper {
+    background: #1b394b !important;
+}
+
+body.collection-5e6d4a189988a61549b6c04d:not(.tweak-transparent-header) .white .header-nav-wrapper a, body.collection-5e6d4a189988a61549b6c04d:not(.tweak-transparent-header) .white .header-menu-nav a {
+    color: #3568a0 !important;
+}
+
+.header-nav-list .header-nav-item--external.header-nav-item:last-of-type a {
+    background-image: url(https://static1.squarespace.com/static/5e6803a2895d977760abca32/t/5ea08ba45775fc7682a2b324/1587579812290/search-blue.png);
+}
+
+.collection-5e6d4a189988a61549b6c04d .pt24 {
+    font-family: Formular-Light,sans-serif;
+}
+
+.collection-5e6d4a189988a61549b6c04d section:nth-of-type(2):before {
+    background: #e2644e;
+    content: " ";
+	height: 60px;
+	width: 60px;
+	display: block;
+	position: absolute;
+	top: -30px;
+	right: 108px;
+	z-index: 9999;
+}
 
 @media (min-width: 1400px) {
   .homepage .image-card p {
@@ -1445,6 +1481,10 @@ footer .sqs-block-image .sqs-block-image-figure {
 	.pt22,
 	.pt22 * {
 		font-size: 1.3rem !important;
+	}
+	
+	.collection-5e6d4a189988a61549b6c04d section:nth-of-type(2)::before {
+		right: 80px;
 	}
 }
 
@@ -1873,7 +1913,8 @@ footer .sqs-block-image .sqs-block-image-figure {
 		font-size: 35px;
 	}
 
-	h4 {
+	h4,
+	body[data-dynamic-font-sizing-enabled="false"] h4 {
 		font-size: 18px;
 	}
 	
@@ -1885,26 +1926,51 @@ footer .sqs-block-image .sqs-block-image-figure {
 	  display: block;
 	}
 	  
-	  .collection-5e6d4a189988a61549b6c04d section .row .row .col:first-of-type .sqs-block-image {
+	.collection-5e6d4a189988a61549b6c04d main section .row .row .col:first-of-type .sqs-block-image,
+	.collection-5e6d4a189988a61549b6c04d section .row .row .col:first-of-type .sqs-block-image {
 	   display: block;
 	}
 
 	.collection-5e6d4a189988a61549b6c04d section .row .row .col:nth-of-type(2) .sqs-block-image {
 	   display: none;
 	}
+	
+	.collection-5e6d4a189988a61549b6c04d main section {
+		border-bottom: 1.5px solid #f2f2f2;
+	}
 	  
-  .summary-block-setting-hide-excerpt .summary-item {
-    margin-bottom: 40px !important;
-    padding-bottom: 12px;
-  }
-  
-  .blog-subscription {
-	background-image: url(https://static1.squarespace.com/static/5e6803a2895d977760abca32/t/5e6fdcd6435e576d936ee0e9/1584389334883/subscribe-bg-mobile.png);
-  }
-  
-  .summary-block-setting-primary-metadata-cats.summary-block-setting-hide-excerpt .summary-item {
-	margin-bottom: 0 !important;
-  }
+	.summary-block-setting-hide-excerpt .summary-item {
+		margin-bottom: 40px !important;
+		padding-bottom: 12px;
+	}
+
+	.blog-subscription {
+		background-image: url(https://static1.squarespace.com/static/5e6803a2895d977760abca32/t/5e6fdcd6435e576d936ee0e9/1584389334883/subscribe-bg-mobile.png);
+	}
+
+	.summary-block-setting-primary-metadata-cats.summary-block-setting-hide-excerpt .summary-item {
+		margin-bottom: 0 !important;
+	}
+	
+	body[data-dynamic-font-sizing-enabled="false"].collection-5e6d4a189988a61549b6c04d h4 {
+		font-size: 2.9166688713914rem;
+	}
+	
+	.collection-5e6d4a189988a61549b6c04d section:nth-of-type(2)::before {
+		right: 46px;
+	}
+	
+	.pt24 {
+		font-size: 1.25rem;
+	}
+	
+	.hide-at-768 {
+		display: none;
+	}
+	
+	.collection-5e6d4a189988a61549b6c04d .breadcrumb {
+		margin-bottom: -20px !important;
+	}
 }
 
 @media (max-width: 500px) {
@@ -1940,6 +2006,10 @@ footer .sqs-block-image .sqs-block-image-figure {
   
 	.row .see-more {
 		font-size: 14px;
+	}
+	
+	.collection-5e6d4a189988a61549b6c04d h4 {
+		font-size: 2.5rem;
 	}
 
 }
