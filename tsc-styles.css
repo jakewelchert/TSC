@@ -48,7 +48,7 @@ figcaption h2 {
 
 h1,
 body[data-dynamic-font-sizing-enabled="false"].homepage h1 {
-    font-size: 8.33rem;
+    font-size: 8.3333396325468rem;
 }
 
 footer h1,
@@ -92,7 +92,7 @@ body[data-dynamic-font-sizing-enabled="false"].homepage h3 {
 
 h4,
 body[data-dynamic-font-sizing-enabled="false"].homepage h4 {
-    font-size: 4.16rem;	
+    font-size: 4.1666698162734rem;	
 	letter-spacing: -0.008em;
 }
 
@@ -1327,6 +1327,7 @@ footer .sqs-block-image .sqs-block-image-figure {
 }
 
 .collection-5e6d4a189988a61549b6c04d article .sqs-block-button-element {
+	font-size: 1.1666675485565rem;
 	margin-top: 25px;
 }
 	
@@ -1356,6 +1357,11 @@ body.collection-5e6d4a189988a61549b6c04d:not(.tweak-transparent-header) .white .
 	top: -30px;
 	right: 108px;
 	z-index: 9999;
+}
+
+.collection-5e6d4a189988a61549b6c04d .pt16 {
+    color: #444444 !important;
+	font-family: Formular-Light,sans-serif !important;
 }
 
 @media (min-width: 1400px) {
@@ -1513,12 +1519,12 @@ body.collection-5e6d4a189988a61549b6c04d:not(.tweak-transparent-header) .white .
 	}
 	
 	.pt90 {
-		font-size: 4.16rem;
+		font-size: 4.1666698162734rem;
 	}
 
 	h1,
 	body[data-dynamic-font-sizing-enabled="false"].homepage h1 {
-		font-size: 4.16rem;
+		font-size: 4.1666698162734rem;
 		letter-spacing: 0;
 	}
 	
